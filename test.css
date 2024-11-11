@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    position: relative;
+        .design_1 {
+            position: absolute;
+            left: 52%;
+            top: -5%;
+            transform:rotate(39.34deg);
+        }
+        .design_2 {
+            position: absolute;
+            left: 40.5%;
+            top: 25%;
+            transform: rotate(-37.09deg);
+        }
+        .design_3 {
+            position: absolute;
+            left: 1080px;
+            top: 270px;
+            transform: rotate(52.37deg);
+        }
+    }
+
+
+
+.navbar {
+    width: 100vw;
+    height: 85px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 295px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.banner_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .banner_left_content {
+        color: white;
+        padding-top: 40px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+    .banner_left_logout {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 150px;
+        margin-left: 20px;
+    }
+}
+
+.banner_right {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner_right_top_small {
+    span {
+        height: 96px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: black;
+        top: 208px;
+    }
+}
+
+.banner_middle {
+    span {
+        width: 345px;
+        height: 321px;
+        top: 401px;
+        background-color: black;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+.banner_middle_right {
+    text-align: center;
+    padding: 30px 20px;
+    .content {
+        padding-top: 5px;
+        span {
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    }
+}
+.banner_bottom {
+    display: flex;
+    justify-content: space-between;
+    .content {
+        text-align: center;
+        margin-left: 15%;
+
+    }
+    .chat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
